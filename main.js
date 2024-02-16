@@ -29,8 +29,8 @@ window.onscroll = function () {
     }
 
     if (value >= 120) {
-      mountains3.style.filter = "hue-rotate(" + value * -2 + "deg)";
-      mountains4.style.filter = "hue-rotate(" + value * -2 + "deg)";
+      mountains3.style.filter = "hue-rotate(" + value * -0.5 + "deg)";
+      mountains4.style.filter = "hue-rotate(" + value * -0.5 + "deg)";
       mountains7.style.filter = "hue-rotate(" + value * -0.5 + "deg)";
       stars.style.filter = "hue-rotate(" + value * 4 + "deg)";
       document.querySelector(".main").style.background =
