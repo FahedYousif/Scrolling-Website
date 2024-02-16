@@ -24,6 +24,13 @@ window.onscroll = function () {
     } else {
       apollo.style.display = "block";
     }
+
+    if (scrollY >= 450) {
+      apollo.style.display = "none"; // Gör rubriken osynlig
+    } else {
+      apollo.style.display = "block"; // Gör rubriken synlig igen
+    }
+
     if (scrollY >= 120) {
       document.querySelector(".main").style.background =
         "linear-gradient(#376281,#10001f)";
