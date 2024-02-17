@@ -80,6 +80,8 @@ header ul li a:hover,
 .content {
   color: #fff;
   padding: 30px;
+  position: relative;
+  top: 50px;
 }
 .content h2 {
   margin: 20px;
